@@ -14,7 +14,7 @@ public:
             while(nums[mx.back()] - nums[mn.back()] > limit){
                 i++; 
                 if(mx.back() < i) mx.pop_back();
-                else if(mn.back() < i) mn.pop_back(); 
+                if(mn.back() < i) mn.pop_back(); 
                 
             }
             best = max(j-i+1, best); 
