@@ -9,7 +9,7 @@ public:
                 nums1[n3] = nums1[n1]; 
                 n1--; 
             }
-            else if(n2>=0){
+            else{
                 nums1[n3] = nums2[n2]; 
                 n2--; 
             }
