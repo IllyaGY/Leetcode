@@ -1,7 +1,7 @@
 class Solution {
 public:
 
-    static bool greater(const pair<int, float> & v1, const pair<int, double>& v2){
+    static bool greater(const pair<int, float> & v1, const pair<int, float>& v2){
         return v1.first >= v2.first; 
     }
 
