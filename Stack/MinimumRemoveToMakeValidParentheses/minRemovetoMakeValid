@@ -1,0 +1,25 @@
+class Solution {
+public:
+    string minRemoveToMakeValid(string s) {
+        int i = 0; 
+        deque<pair<char, int>> q;
+        string news="";
+        while(i < s.size()){
+            if(s[i] == '(') q.push_front({'(', i}); 
+            else if(s[i] == ')') {
+                if(!q.empty() && q.front().first == '(') 
+                    q.pop_front();
+                else q.push_front({')', i}); 
+            }
+            i++; 
+        }
+        for(int j = 0; j<s.size(); j++ ){
+            if(!q.empty() && q.back().second == j){
+                q.pop_back();
+                continue;
+            }
+            news+=s[j];
+        }
+        return news; 
+    }
+};
