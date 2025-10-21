@@ -9,4 +9,8 @@ public:
         }
         return v[v.size()-1][v.size()];
     }
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> 8f9ca37dc7416f30c2dcc365e50af422c6e17f3e
