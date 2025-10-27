@@ -1,5 +1,6 @@
 class Solution {
 public:
+#1D
     int numDecodings(string s) {
         vector<unsigned int> v(s.size()+1, 0); 
         v[0] = 1; 
