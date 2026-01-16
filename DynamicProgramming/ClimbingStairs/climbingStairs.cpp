@@ -1,10 +1,9 @@
 class Solution {
 public:
     int climbStairs(int n) {
-        std::vector<int> v(n+1,0);
-        v[0] = 1;
-        for(int i = 1; i <= n; i++)
-            v[i] = v[i-1] + (i-2>=0 ? v[i-2] : 0);
-        return v[n];
+        vector<int> v(n + 2, 1);
+        v[0] = 0; 
+        for(int i = 2; i < n+2; i++) v[i] = v[i-2] + v[i-1];  
+        return v[n+1]; 
     }
 };
