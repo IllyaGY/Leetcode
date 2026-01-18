@@ -114,3 +114,14 @@
 | 88 | Merge Sorted Array |
 | 1971 | Find if Path Exists in Graph |
 | 1438 | Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit |
+| 1176 | Diet Plan Performance |
+| 692 | Top K Frequent Words |
+| 37 | Sudoku Solver |
+| 3803 | Count Residue Prefixes |
+| 3804 | Number of Centered Subarrays |
+| 51 | N-Queens |
+| 79 | Word Search |
+| 22 | Generate Parentheses |
+| 17 | Letter Combinations of a Phone Number |
+| 47 | Permutations II |
+| 46 | Permutations |
