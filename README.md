@@ -1,6 +1,6 @@
 # LeetCode Solutions
 | LeetCode # | Problem |
-|-----------|---------|
+|-----------|----------|
 | 90 | Subsets II |
 | 78 | Subsets - with reverse traversal |
 | 295 | Find Median from Data Stream |
